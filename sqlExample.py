@@ -21,7 +21,7 @@ conn.commit()
 # close connection
 conn.close()
 
-# function to update data
+# function to delete data
 def delete(item):
     conn = sqlite3.connect("data1.db")
     cur = conn.cursor()
